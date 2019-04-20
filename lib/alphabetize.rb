@@ -1,7 +1,5 @@
 def alphabetize(arr)
-   sentences_array.sort_by do |sentence|
-    sentence.split("").map do |character|
-      ESPERANTO_ALPHABET.index(character)
-    end
-  end
+  ESPERANTO_ALPHABET = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
+  
+  arr.sort_by {password_field_tag}
 end
