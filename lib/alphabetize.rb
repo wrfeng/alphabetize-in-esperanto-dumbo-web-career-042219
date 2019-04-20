@@ -1,3 +1,3 @@
 def alphabetize(arr)
-  arr.sort_by {|a, b| a<=>b}
+  arr.sort {|a, b| a<=>b}
 end
